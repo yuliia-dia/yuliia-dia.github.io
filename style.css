@@ -1,0 +1,107 @@
+/* STYLE SECTIONING TAGS */
+
+body {
+ background-color: #FFFAFF; 
+}
+
+head {
+  background-color: #363537;
+}
+
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #FB6107;
+  font-family: "Times New Roman", sans-serif;
+  padding-top: 1 em;
+  padding-bottom: 1 em;
+}
+
+h2 {
+  color: #FB6107;
+  padding-top: 1em;
+  text-align: center;
+}
+
+p {
+  color: #FC792E;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+  line-height: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+li {
+  margin: 1em;
+  display: inline;
+}
+
+/*I'm happy with the visuals of the nav bar as it is without all the edits that are made in the isntructional video. Please don't take that as a negative point, I just like the look of it as is.*/
+
+li a {
+  color: #FFFAEB;
+}
+
+li a:hover {
+  background-color: #F7E36E;
+  color: #FB6107;
+}
+
+ul {
+  list-style-type: none;
+  background-color: #FB6107;
+  overflow: hidden;
+  padding: 1em;
+}
+
+/* STYLE IMAGES */
+
+img {
+  max-width: 550px;
+  border-radius: 10%;
+  border: 3px solid #4797FF;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /*I took the above edits from W3 because I could not otherwise figure out how to center the images unfortunately. https://www.w3schools.com/howto/howto_css_image_center.asp */
+}
+
+/* STYLE NAV BAR */
+
+.intro {
+  background-color: #FFFAEB;
+  border-radius: 20%;
+  padding: 15px;
+}
+
+#selflogo {
+  border-radius: 80%; 
+  max-width: 150px;
+}
+
+/*I didn't follow instructions and flipped around what I used for a class and an ID. I do not need an ID for the main page text, but it was great to use for the photo*/
+
+.portimgs {
+  border: 5px solid #FC792E;
+}
+
+#garden {
+  border-radius: 15%
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+}
+
+
+
